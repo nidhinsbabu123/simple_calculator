@@ -1,0 +1,46 @@
+#calcubody{
+    background-image: url(https://images.inc.com/uploaded_files/image/1920x1080/getty_804833106_200013341818843182468_356315.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #leftsideimage{
+    background-image: url(https://global-uploads.webflow.com/63c2ad9623be3c69bcdd9010/6448df259e63b8fd82881cbb_annuity-calculator-best-ways-to-use-it-xlg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* #rightsideimage{
+    background-image: url(https://global-uploads.webflow.com/63c2ad9623be3c69bcdd9010/6448df259e63b8fd82881cbb_annuity-calculator-best-ways-to-use-it-xlg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#calculatorpage{
+    /* background: linear-gradient(to right, rgb(255, 255, 255) , rgb(180, 241, 242)); */
+    background-image: url(https://cdn.firstcry.com/education/2023/02/10130836/Cardinal-Numbers-For-Children-To-Improve-Their-Math-Skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#buttons button{
+    width: 56px;
+}
+
+/* .displayspace{
+    background-color: brown; 
+} */
+
+.displayspace #output{
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+}
+
+

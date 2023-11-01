@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./calc.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    
+    <!-- <div class="textbox">
+        <input placeholder="0" id="user" type="text">
+    </div> -->
+
+    <div id="calculatorpage" class="row">
+        <div id="leftsideimage" class="col-4"></div>
+        <div id="calcubody" class="col-4 p-5 bg-warning text-center">
+            <div class="displayspace">
+                <input id="output" placeholder="0" type="text">
+            </div>
+            <div id="buttons" class="row p-4">
+                <div class="col-12 p-3">
+                    <button id="seven" onclick="display(7)" type="button" class="btn btn-primary">7</button>
+                    <button id="eight" onclick="display(8)" type="button" class="btn btn-primary">8</button>
+                    <button id="nine" onclick="display(9)" type="button" class="btn btn-primary">9</button>
+                    <button onclick="display('/')" id="divide" type="button" class="btn btn-warning"><i class="fa-solid fa-divide" style="color: #000000;"></i></button>
+                </div>
+                <div class="col-12 ">
+                    <button id="four" onclick="display(4)" type="button" class="btn btn-primary">4</button>
+                    <button id="five" onclick="display(5)" type="button" class="btn btn-primary">5</button>
+                    <button id="six" onclick="display(6)" type="button" class="btn btn-primary">6</button>
+                    <button id="multiply" onclick="display('*')" type="button" class="btn btn-warning"><i class="fa-solid fa-xmark" style="color: #000000;"></i></button>
+                </div>
+                <div class="col-12 p-3">
+                    <button id="one" onclick="display(1)" type="button" class="btn btn-primary">1</button>
+                    <button id="two" onclick="display(2)" type="button" class="btn btn-primary">2</button>
+                    <button id="three" onclick="display(3)" type="button" class="btn btn-primary">3</button>
+                    <button id="minus" onclick="display('-')" type="button" class="btn btn-warning"><i class="fa-solid fa-minus" style="color: #000000;"></i></button>
+                </div>
+                <div class="col-12">
+                    <button id="zero" onclick="display(0)" type="button" class="btn btn-primary">0</button>
+                    <button onclick="display('.')" type="button" class="btn btn-primary">.</button>
+                    <button id="plus" onclick="display('+')" type="button" class="btn btn-warning"><i class="fa-solid fa-plus" style="color: #000000;"></i></button>
+                    <button id="equal" onclick="evaluateExp()" type="button" class="btn btn-success"><i class="fa-solid fa-equals" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="col-12">
+                    <button onclick="clearAll()" id="clear" type="button" class="btn btn-danger mt-3">C</button>
+                    <button onclick="removeLast()" id="delete" type="button" class="btn btn-danger mt-3">DEL</button>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="rightsideimage" class="col-4"></div>
+
+    </div>
+    
+    
+</body>
+
+<script src="./calc.js">
+
+</script>
+
+</html>
